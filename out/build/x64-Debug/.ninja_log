@@ -1,0 +1,26 @@
+# ninja log v5
+2	837	603820717	src/CMakeFiles/lib_dynamic.dir/TryLib.cpp.obj	9ccf37b12cd4efb5
+838	1203	603820717	lib/tryLib.dll	4b061e76e5e5af7e
+838	1203	603820717	lib/tryLib.lib	4b061e76e5e5af7e
+1	348	603820717	lib/tryLib.dll	4b061e76e5e5af7e
+1	348	603820717	lib/tryLib.lib	4b061e76e5e5af7e
+4	433	603820785	src/CMakeFiles/lib_static.dir/TryLib.cpp.obj	e23750c615b6a946
+433	458	603820785	lib/lib_static.lib	e55eb80ed1b12d84
+0	11	0	clean	b049eaf95b698d8c
+5	390	603820790	src/CMakeFiles/lib_static.dir/TryLib.cpp.obj	e23750c615b6a946
+1	401	603820790	src/CMakeFiles/lib_dynamic.dir/TryLib.cpp.obj	9ccf37b12cd4efb5
+390	420	603820790	lib/lib_static.lib	e55eb80ed1b12d84
+402	563	603820790	lib/tryLib.dll	4b061e76e5e5af7e
+402	563	603820790	lib/tryLib.lib	4b061e76e5e5af7e
+0	13	0	clean	b049eaf95b698d8c
+1	647	603821150	src/CMakeFiles/lib_dynamic.dir/TryLib.cpp.obj	9ccf37b12cd4efb5
+5	651	603821150	src/CMakeFiles/lib_static.dir/TryLib.cpp.obj	e23750c615b6a946
+651	685	603821150	lib/lib_static.lib	e55eb80ed1b12d84
+647	847	603821150	lib/tryLib.dll	4b061e76e5e5af7e
+647	847	603821150	lib/tryLib.lib	4b061e76e5e5af7e
+0	13	0	clean	b049eaf95b698d8c
+5	586	603821348	src/CMakeFiles/lib_static.dir/TryLib.cpp.obj	e23750c615b6a946
+1	589	603821348	src/CMakeFiles/lib_dynamic.dir/TryLib.cpp.obj	9ccf37b12cd4efb5
+586	622	603821348	lib/lib_static.lib	e55eb80ed1b12d84
+590	763	603821348	lib/tryLib.dll	d4aa804a27f85a39
+590	763	603821348	lib/tryLib.lib	d4aa804a27f85a39
