@@ -141,7 +141,7 @@ build src\CMakeFiles\lib_static.dir\TryLib.cpp.obj: CXX_COMPILER__lib_static ..\
   OBJECT_DIR = src\CMakeFiles\lib_static.dir
   OBJECT_FILE_DIR = src\CMakeFiles\lib_static.dir
   TARGET_COMPILE_PDB = src\CMakeFiles\lib_static.dir\lib_static.pdb
-  TARGET_PDB = lib\lib_static.pdb
+  TARGET_PDB = lib\staticLib.pdb
 
 
 # =============================================================================
@@ -149,17 +149,17 @@ build src\CMakeFiles\lib_static.dir\TryLib.cpp.obj: CXX_COMPILER__lib_static ..\
 
 
 #############################################
-# Link the static library lib\lib_static.lib
+# Link the static library lib\staticLib.lib
 
-build lib\lib_static.lib: CXX_STATIC_LIBRARY_LINKER__lib_static src\CMakeFiles\lib_static.dir\TryLib.cpp.obj
+build lib\staticLib.lib: CXX_STATIC_LIBRARY_LINKER__lib_static src\CMakeFiles\lib_static.dir\TryLib.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = src\CMakeFiles\lib_static.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = src\CMakeFiles\lib_static.dir\lib_static.pdb
-  TARGET_FILE = lib\lib_static.lib
-  TARGET_PDB = lib\lib_static.pdb
+  TARGET_FILE = lib\staticLib.lib
+  TARGET_PDB = lib\staticLib.pdb
 
 
 #############################################
@@ -219,9 +219,9 @@ build src\list_install_components: phony
 
 build lib_dynamic: phony lib\tryLib.dll
 
-build lib_static: phony lib\lib_static.lib
+build lib_static: phony lib\staticLib.lib
 
-build lib_static.lib: phony lib\lib_static.lib
+build staticLib.lib: phony lib\staticLib.lib
 
 build tryLib.dll: phony lib\tryLib.dll
 
@@ -242,7 +242,7 @@ build src\all: phony lib_dynamic lib_static
 #############################################
 # The main all target.
 
-build all: phony lib\tryLib.dll lib\lib_static.lib
+build all: phony lib\tryLib.dll lib\staticLib.lib
 
 
 #############################################

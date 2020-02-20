@@ -36,3 +36,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/CarmineDiGruttola/source/repos/CMakeDynamicLib/out/build/x64-Debug/lib/tryLib.lib")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/CarmineDiGruttola/source/repos/CMakeDynamicLib/out/build/x64-Debug/lib/staticLib.lib")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tryLib" TYPE FILE FILES "C:/Users/CarmineDiGruttola/source/repos/CMakeDynamicLib/src/../include/TryLib.h")
+endif()
+
